@@ -1,0 +1,28 @@
+{
+  "name": "parcel-poligon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.js --public-url /parcel-poligon/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serhii-Fedorenko/parcel-poligon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serhii-Fedorenko/parcel-poligon/issues"
+  },
+  "homepage": "https://Serhii-Fedorenko.github.io/parcel-poligon",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
